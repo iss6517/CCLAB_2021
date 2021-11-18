@@ -20,48 +20,44 @@ function draw() {
   prevY = currY;
 }
 function mousePressed() {}
-function keyPressed0() {
+function keyPressed(){
   if (key == " ") {
     background(114, 149, 134);
     bColor = "MintCream";
-  }
-  function keyPressed1() {
-    background(114, 149, 134);
-    if (key == "1") {
+  } else if (key == "1") {
     bColor = "Honeydew";
-  }
-}
-  function keyPressed2() {
-    background(114, 149, 134);
-    if (key == "2") {
+  } else if (key == "2") {
     bColor = "LightGreen";
-  }
-}
-function keyPressed3() {
-  background(114, 149, 134);
-  if (key == "3") {
+  } else if (key == "3") {
     bColor = "MediumAquaMarine";
-  }
-}
-function keyPressed4() {
-  background(114, 149, 134);
-   if (key == "4") {
+  } else if (key == "4") {
     bColor = "SeaGreen";
-  }
-}
-function keyPressed5() {
-  background(114, 149, 134);
-   if (key == "5") {
+  } else if (key == "5") {
     bColor = "ForestGreen";
-  }
-}
-function keyPressed6() {
-  background(114, 149, 134); if (key == "6") {
+  } else if (key == "6") {
     bColor = "DarkGreen";
-  }
-}
-function keyPressed7() {
-  background(114, 149, 134); if (key == "7") {
+  } else if (key == "7") {
     bColor = "DarkSlateGrey";
   }
+}
+function changeColor(key){
+  if (key == 1) {
+    bColor = "Honeydew";
+  } else if (key == 2) {
+    bColor = "LightGreen";
+  } else if (key == 3) {
+    bColor = "MediumAquaMarine";
+  } else if (key == "4") {
+    bColor = "SeaGreen";
+  } else if (key == "5") {
+    bColor = "ForestGreen";
+  } else if (key == "6") {
+    bColor = "DarkGreen";
+  } else if (key == "7") {
+    bColor = "DarkSlateGrey";
+  }
+}
+function reset(){
+  background(114, 149, 134);
+  bColor = "MintCream";
 }

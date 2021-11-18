@@ -20,28 +20,20 @@
 
     <div>  <h1 id = "id1" >゜⋆✧゜shades of green ゜✧⋆゜</h1> </div>
 
-    <div>
-     <button onclick="keyPressed()" type="button">mint cream!</button>
-     <button onclick="keyPressed()" type="button">honeydew!</button>
-     <button onclick="keyPressed()" type="button">light green!</button>
-     <button onclick="keyPressed()" type="button">medium aquamarine!</button>
-     <button onclick="keyPressed()" type="button">sea green!</button>
-     <button onclick="keyPressed()" type="button">forest green!</button>
-     <button onclick="keyPressed()" type="button">dark green!</button>
-     <button onclick="keyPressed()" type="button">dark slate grey!</button>
-   </div>
-
     <div class = "p" id="keycontainer" style="text-align:left;">
       <p class = "p" id="asdf">
-      color key : <br>
+      press these keys to paint! <br>
       start color = mint cream <br>
-      1 = honeydew <br>
-      2 = light green<br>
-      3 = medium aquamarine<br>
-      4 = sea green<br>
-      5 = forest green<br>
-      6 = dark green<br>
-      7 = dark slate grey<br>
+      <div>
+      <button onclick="reset();" type="button">reset!</button> <br>
+      <button onclick="changeColor(1);" type="button">honeydew!</button> <br>
+      <button onclick="changeColor(2);" type="button">light green!</button> <br>
+      <button onclick="changeColor(3);" type="button">medium aquamarine!</button> <br>
+      <button onclick="changeColor(4);" type="button">sea green!</button> <br>
+      <button onclick="changeColor(5);" type="button">forest green!</button> <br>
+      <button onclick="changeColor(6);" type="button">dark green!</button> <br>
+      <button onclick="changeColor(7);" type="button">dark slate grey!</button> <br>
+      </div>
     </p>
   </div>
   </body>

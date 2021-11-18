@@ -75,3 +75,9 @@ canvas {
     grid-template-columns: 1fr 2fr;
     gap: .7rem;
 }
+
+button{
+  background-color: Honeydew;
+  font-family: Garamond, serif;
+  font-size: 20px;
+}
