@@ -63,3 +63,15 @@ canvas {
   right: 400px;
   bottom: 400px;
 }
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.controls {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
+    gap: .7rem;
+}

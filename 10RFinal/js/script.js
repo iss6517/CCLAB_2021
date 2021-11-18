@@ -20,23 +20,48 @@ function draw() {
   prevY = currY;
 }
 function mousePressed() {}
-function keyPressed() {
+function keyPressed0() {
   if (key == " ") {
     background(114, 149, 134);
     bColor = "MintCream";
-  } else if (key == "1") {
+  }
+  function keyPressed1() {
+    background(114, 149, 134);
+    if (key == "1") {
     bColor = "Honeydew";
-  } else if (key == "2") {
+  }
+}
+  function keyPressed2() {
+    background(114, 149, 134);
+    if (key == "2") {
     bColor = "LightGreen";
-  } else if (key == "3") {
+  }
+}
+function keyPressed3() {
+  background(114, 149, 134);
+  if (key == "3") {
     bColor = "MediumAquaMarine";
-  } else if (key == "4") {
+  }
+}
+function keyPressed4() {
+  background(114, 149, 134);
+   if (key == "4") {
     bColor = "SeaGreen";
-  } else if (key == "5") {
+  }
+}
+function keyPressed5() {
+  background(114, 149, 134);
+   if (key == "5") {
     bColor = "ForestGreen";
-  } else if (key == "6") {
+  }
+}
+function keyPressed6() {
+  background(114, 149, 134); if (key == "6") {
     bColor = "DarkGreen";
-  } else if (key == "7") {
+  }
+}
+function keyPressed7() {
+  background(114, 149, 134); if (key == "7") {
     bColor = "DarkSlateGrey";
   }
 }
