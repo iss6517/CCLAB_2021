@@ -1,0 +1,15 @@
+html, body {
+  background-color: rgb(129, 179, 139);
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.img-container{
+  position: absolute;
+  right: 1000px;
+  top: 1000px;
+}

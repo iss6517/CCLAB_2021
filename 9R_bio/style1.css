@@ -1,0 +1,19 @@
+body { background: beige}
+.h1 {color: maroon;
+  font-size: 42;
+  font-family: monospace;}
+  #id1 {color: maroon;
+    font-size: 42;
+    font-family: monospace;
+  }
+.h3 {color: maroon;
+  font-size: 16;
+  font-family: monospace;}
+  #id2 {color:navy;
+  font-size: 16;
+  font-family: monospace;}
+.p {color: maroon;
+  {margin-left: 1000;
+  font-size: 30;
+  font-family: monospace;}
+  #id3{margin-left: 1000;}
