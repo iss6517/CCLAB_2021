@@ -38,6 +38,7 @@ canvas {
   font-family: Garamond, serif;
   text-align:left;
   right: 30%;
+  top: 0%;
 }
 #keycontainer{
     position: absolute;
