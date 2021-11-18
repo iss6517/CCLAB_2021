@@ -1,0 +1,64 @@
+html, body {
+  font-family: Garamond, serif;
+  background: rgb(114, 149, 134);
+  margin: 20;
+  padding: 10;
+}
+.h1 {color: rgb(255,255,255);
+  font-size: 42px;
+  font-family: sans-serif;}
+  #id1 {color: rgb(255,255,255);
+    font-size: 42px;
+    font-family: Garamond, serif;
+    left: 600px;
+    top:100px;
+  }
+canvas {
+  display: block;
+}
+
+.h3{color: rgb(255,255,255);
+  font-size: 42px;
+  font-family: Garamond, serif;}
+#imgcontainer{
+  position: absolute;
+  left: 400px;
+  top: 400px;
+  width: 400px;
+  height: 400px;
+}
+
+.p{color: rgb(255,255,255);
+  font-size: 42px;
+  font-family: Garamond, serif;}
+#asdf{
+  position: absolute;
+  color: rgb(255,255,255);
+  font-size: 30px;
+  font-family: Garamond, serif;
+  text-align:left;
+  right: 30%;
+}
+#keycontainer{
+    position: absolute;
+    text-align: right;
+    right: 200px;
+    top: 100px;
+    width: 600px;
+    height: 600px;
+}
+
+.img{background: rgb(114, 149, 134);
+  width: 200px;
+  height: 200px;
+  align: right;
+}
+#image{
+  width: 200px;
+  height: 400px;
+  position: absolute;
+  align: right;
+  display: block;
+  right: 400px;
+  bottom: 400px;
+}
