@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#canvas-container {
+  display: block;
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(50% - 200px);
+  z-index: -1
+}
