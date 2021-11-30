@@ -4,7 +4,8 @@ let img;
 function setup() {
   createCanvas(600, 400);
   cam = createCapture(VIDEO);
-  cam.hide(); // html
+  //hide normal cam
+  cam.hide();
   img = createImage(width, height);
 }
 
