@@ -1,0 +1,28 @@
+html, body {
+  font-family: Garamond, serif;
+  background: rgb(234, 221, 202);
+  margin: -10px;
+  padding: 0px;
+}
+
+.canvas {
+  display: block;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.h1 {color: rgb(110, 81, 65);
+  width: 100%
+  font-size: 42px;
+  font-family: sans-serif;
+  position: absolute;
+}
+  #id1 {color: rgb(110, 81, 65);
+    font-size: 42px;
+    font-family: Garamond, serif;
+    width: 60%;
+    right: 5%;
+    top:10%;
+  }
