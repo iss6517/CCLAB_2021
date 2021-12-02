@@ -20,10 +20,10 @@ function setup() {
 }
 
 function draw() {
-  background(255)
+  background(54, 69, 79)
   n= 6
   let index = 0
-  for (var offset = -210; offset<=height+20; offset+=10){
+  for (var offset = -210; offset<=height+20; offset+=20){
     noiseSeed(n);
     let wavecolor = colArray[index]
     wavyLineHorizontal(offset, wavecolor);

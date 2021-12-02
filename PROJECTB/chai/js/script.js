@@ -1,6 +1,6 @@
 let angle = 0;
 let amp = 500;
-let speed = 0.0001;
+let speed = 0.00025;
 let colArray;
 let r;
 let g;
@@ -24,7 +24,7 @@ function draw() {
   background(88, 24, 69)
   n= 6
   let index = 0
-  for (var offset = -210; offset<=height+20; offset+=10){
+  for (var offset = -210; offset<=height+20; offset+=20){
     noiseSeed(n);
     let wavecolor = colArray[index]
     wavyLineHorizontal(offset, wavecolor);

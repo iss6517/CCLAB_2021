@@ -22,9 +22,9 @@ function setup() {
 
 function draw() {
   background(223, 255, 0)
-  n= 6
+  n= 5
   let index = 0
-  for (var offset = -210; offset<=height+20; offset+=10){
+  for (var offset = -210; offset<=height+20; offset+=20){
     noiseSeed(n);
     let wavecolor = colArray[index]
     wavyLineHorizontal(offset, wavecolor);

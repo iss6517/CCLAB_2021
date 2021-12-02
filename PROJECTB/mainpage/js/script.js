@@ -14,7 +14,7 @@ bg = loadImage("assets/map.jpg");
   button.mousePressed(changeBG);
   button.mousePressed(gotochai);
   button = createButton('moroccan mint tea');
-  button.position(350, 430)
+  button.position(350, 430);
   button.mousePressed(changeBG);
   button.mousePressed(gotoomoroccanminttea);
   button = createButton('earl grey');
