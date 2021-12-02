@@ -5,7 +5,7 @@ html, body {
   padding: 0px;
 }
 
-.canvas {
+canvas {
   display: block;
   position: absolute;
   margin: 0px;
@@ -25,4 +25,10 @@ html, body {
     width: 60%;
     right: 5%;
     top:10%;
+  }
+
+  button{
+    background-color: rgb(220,199,181);
+    font-family: Garamond, serif;
+    font-size: 20px;
   }
