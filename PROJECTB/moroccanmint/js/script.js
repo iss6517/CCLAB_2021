@@ -1,6 +1,6 @@
 let angle =40;
 let amp = 500;
-let speed = 0.00015;
+let speed = 0.00035;
 let colArray;
 let r;
 let g;
