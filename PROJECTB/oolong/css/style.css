@@ -26,3 +26,17 @@ html, body {
     right: 5%;
     top:10%;
   }
+
+.p {color: rgb(229, 228, 226);
+    width: 100%
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+  }
+  #id2 {color: rgb(229, 228, 226);
+    position: absolute;
+    font-size: 20px;
+    font-family: Garamond, serif;
+    width: 60%;
+    right: 5%;
+  }

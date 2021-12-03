@@ -27,6 +27,20 @@ canvas {
     top:10%;
   }
 
+  .p {color: rgb(110, 81, 65);
+    width: 100%
+    font-size: 20px;
+    font-family: sans-serif;
+    position: absolute;
+  }
+    #id2 {color: rgb(110, 81, 65);
+      font-size: 20px;
+      font-family: Garamond, serif;
+      width: 60%;
+      right: 10%;
+      top:30%;
+    }
+
   button{
     background-color: rgb(220,199,181);
     font-family: Garamond, serif;
