@@ -8,7 +8,7 @@ let b;
 let img;
 
 function setup() {
-  img = loadImage('PROJECTB/assets/chai.png');
+  img = loadImage('chai.png');
 
   let canvas = createCanvas(800, window.innerHeight+10);
   canvas.parent='canvas-container'

@@ -5,8 +5,12 @@ let colArray;
 let r;
 let g;
 let b;
+let img;
 
 function setup() {
+  img = loadImage('earl grey.png');
+
+
   let canvas = createCanvas(800, window.innerHeight+10);
   canvas.parent='canvas-container'
   pixelDensity(1);
@@ -31,6 +35,7 @@ function draw() {
     index += 1
 
   }
+  image(img, 0, 0, 800, window.innerHeight + 10);
 }
 
 // sin(freq) * amp;

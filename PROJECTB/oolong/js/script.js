@@ -9,9 +9,9 @@ let grayscale;
 let img;
 
 function setup() {
-   img = loadImage('/Users/locknoc/Desktop/CCLAB_2021/PROJECTB/assets/oolong.png');
+   img = loadImage('oolong.png');
 
-  createCanvas(800, 700);
+  createCanvas(800, window.innerHeight+10);
   pixelDensity(1);
   noiseSeed(2);
   colArray = [];
@@ -32,7 +32,7 @@ function draw() {
     index += 1
 
   }
-  image(img, 0, 0, 600, 600);
+  image(img, 0, 0, 800, window.innerHeight + 10);
 }
 
 function wavyLineHorizontal(offset, wavecolor) {
