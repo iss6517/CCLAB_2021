@@ -6,10 +6,12 @@ let r;
 let g;
 let b;
 let grayscale;
+let img;
 
 function setup() {
-  let canvas = createCanvas(800, window.innerHeight+10);
-  canvas.parent='canvas-container'
+   img = loadImage('/Users/locknoc/Desktop/CCLAB_2021/PROJECTB/assets/oolong.png');
+
+  createCanvas(800, 700);
   pixelDensity(1);
   noiseSeed(2);
   colArray = [];
@@ -20,16 +22,17 @@ function setup() {
 }
 
 function draw() {
-  background(54, 69, 79)
+  background(255)
   n= 6
   let index = 0
-  for (var offset = -210; offset<=height+20; offset+=20){
+  for (var offset = -210; offset<=height+20; offset+=10){
     noiseSeed(n);
     let wavecolor = colArray[index]
     wavyLineHorizontal(offset, wavecolor);
     index += 1
 
   }
+  image(img, 0, 0, 600, 600);
 }
 
 function wavyLineHorizontal(offset, wavecolor) {
