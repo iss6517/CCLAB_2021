@@ -4,13 +4,13 @@ let button;
 
 
 function setup() {
-bg = loadImage("assets/map.jpg");
-  createCanvas(800, window.innerHeight+20);
+bg = loadImage("assets/mapp.jpg");
+  createCanvas(1000, window.innerHeight+10);
   button = createButton('oolong');
-  button.position(610, 390);
+  button.position(850, 290);
   button.mousePressed(gotooolong);
   button = createButton('chai');
-  button.position(530, 400);
+  button.position(730, 400);
   button.mousePressed(changeBG);
   button.mousePressed(gotochai);
   button = createButton('moroccan mint tea');
@@ -52,26 +52,26 @@ function gotomate() {
 function draw() {
   background(bg);
 
+  strokeWeight(2);
   fill(0);
-  line(635, 395, 660, 420);
-  line(555, 430, 530, 400);
-  line(380, 410, 420, 450);
-  line(385, 300, 340, 270);
-  line(240, 480, 200, 400);
-  stroke(3);
+  line(890, 320, 790, 310);
+  line(755, 430, 700, 340);
+  line(460, 460, 460, 330);
+  line(470, 225, 340, 270);
+  line(285, 485, 200, 400);
 
 
   fill(110, 81, 65);
   //China
-  ellipse(635, 395, 10, 10)
+  ellipse(790, 310, 10, 10)
   //India
-  ellipse(530, 400, 10, 10)
+  ellipse(700, 340, 10, 10)
   //Morocco
-  ellipse(380, 410, 10, 10)
+  ellipse(460, 330, 10, 10)
   //UK
-  ellipse(385, 300, 10, 10)
+  ellipse(470, 225, 10, 10)
   //Bolivia
-  ellipse(240, 480, 10, 10)
+  ellipse(285, 485, 10, 10)
 
 
 }
