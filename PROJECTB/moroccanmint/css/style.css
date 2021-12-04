@@ -19,10 +19,25 @@ html, body {
   font-family: sans-serif;
   position: absolute;
 }
-  #id1 {color: rgb(145, 235, 145);
+  #id1 {color: rgb(115, 205, 115);
     font-size: 42px;
     font-family: Garamond, serif;
     width: 60%;
     right: 5%;
     top:10%;
   }
+  #id2 {color: rgb(115, 205, 115);
+    font-size: 25px;
+    font-family: Garamond, serif;
+    width: 60%;
+    right: -16%;
+    top:20%;
+  }
+
+  .slidecontainer {
+    margin: -10px;
+    position: absolute;
+    width: 60%;
+    right: -15%;
+    top:95%;
+}

@@ -26,7 +26,8 @@ function setup() {
 
 function draw() {
   background(140, 250, 180)
-  n= 4
+  var slider = document.getElementById("myRange");
+  n = map(slider.value, 0, 1, 4, 10);
   let index = 0
   for (var offset = -210; offset<=height+20; offset+=20){
     noiseSeed(n);
