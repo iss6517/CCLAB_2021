@@ -7,11 +7,18 @@ let g;
 let b;
 let grayscale;
 let img;
+var cnv;
+
+function centerCanvas() {
+  var x = (windowWidth - width-650) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+}
 
 function setup() {
    img = loadImage('oolong.png');
-
-  createCanvas(800, window.innerHeight+10);
+   cnv = createCanvas(550, 550);
+   centerCanvas();
   pixelDensity(1);
   noiseSeed(2);
   colArray = [];
@@ -19,6 +26,10 @@ function setup() {
     grayscale = random(170,255);
   colArray.push(color(grayscale));
   }
+}
+
+function windowResized() {
+  centerCanvas();
 }
 
 function draw() {
@@ -33,7 +44,7 @@ function draw() {
     index += 1
 
   }
-  image(img, 0, 0, 800, window.innerHeight + 10);
+  image(img, 0, 0, 550, 550);
 }
 
 function wavyLineHorizontal(offset, wavecolor) {

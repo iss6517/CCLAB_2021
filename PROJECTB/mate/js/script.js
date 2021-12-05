@@ -6,13 +6,18 @@ let r;
 let g;
 let b;
 let img;
+var cnv;
+
+function centerCanvas() {
+  var x = (windowWidth - width-650) / 2;
+  var y = (windowHeight - height) / 2;
+  cnv.position(x, y);
+}
 
 function setup() {
   img = loadImage('yerba mate.png');
-
-
-  let canvas = createCanvas(800, window.innerHeight+10);
-  canvas.parent='canvas-container'
+  cnv = createCanvas(550, 550);
+  centerCanvas();
   pixelDensity(1);
   noiseSeed(2);
   colArray = [];
@@ -22,6 +27,10 @@ function setup() {
   b = 0;
   colArray.push(color(r,g,b));
   }
+}
+
+function windowResized() {
+  centerCanvas();
 }
 
 function draw() {
@@ -36,7 +45,7 @@ function draw() {
     index += 1
 
   }
-  image(img, 0, 0, 800, window.innerHeight + 10);
+image(img, 0, 0, 550, 550);
 }
 
 function wavyLineHorizontal(offset, wavecolor) {
