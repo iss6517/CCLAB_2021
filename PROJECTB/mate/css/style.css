@@ -1,8 +1,24 @@
 html, body {
   font-family: Garamond, serif;
-  background: rgb(180, 196, 36);
+  background: rgb(191, 106, 15);
   margin: -10px;
   padding: 0px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+/* Control the right side */
+.right {
+  width: 50%;
+  right: -5%;
+  top:0%;
+  background-color: rgb(180, 196, 36);
 }
 
 .canvas {
@@ -14,29 +30,29 @@ html, body {
 
 .h1 {color: rgb(110, 81, 65);
   width: 100%
-  font-size: 42px;
+  font-size: 30px;
   font-family: sans-serif;
   position: absolute;
 }
   #id1 {color: rgb(110, 81, 65);
-    font-size: 42px;
+    font-size: 40px;
     font-family: Garamond, serif;
-    width: 60%;
-    right: 5%;
-    top:5%;
+    width: 100%;
+    right:-3%;
+    top:0%;
   }
   #id2 {color: rgb(110, 81, 65);
     font-size: 30px;
     font-family: Garamond, serif;
     width: 60%;
-    right: -16%;
-    top:20%;
+    right: 34%;
+    top:14%;
   }
 
   .slidecontainer {
     margin: -10px;
     position: absolute;
     width: 60%;
-    right: -15%;
-    top:95%;
+    right: 36%;
+    top:85%;
 }
